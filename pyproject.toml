@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ball-detection"
+version = "0.1.0"
+description = ""
+authors = ["Ari <me@ari.io>"]
+readme = "README.md"
+packages = [{include = "ball_detection"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.8.0.74"
+numpy = "^1.25.2"
+matplotlib = "^3.7.2"
+imutils = "^0.5.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
