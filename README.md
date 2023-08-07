@@ -15,6 +15,12 @@ Setup the poetry environment
 poetry install
 ```
 
+Add your images to `./data/raw/`:
+
+```bash
+cp ~/Downloads/ball.png ./data/raw/ball.png
+```
+
 Run jupyter notebook
 
 ```bash
