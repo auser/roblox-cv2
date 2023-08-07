@@ -1,2 +1,2 @@
-data/raw
+data/raw/*.png
 src/.ipynb_checkpoints/
